@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>belajar tailwind</title>
+</head>
+<body>
+    <!--header start-->
+    <header class="absolute bg-black top-0 left-0 w-full z-10 flex items-center">
+      <div class="w-full ml-auto mr-auto px-[16px] py-[19px]">
+       <div class="relative flex justify-between items-center">
+         <!--<h1 class="text-xl font-extrabold text-white">T <span class="text-blue-500">S</span> J</h1>-->
+         <img src="src/img/tsj.png" alt="" width="3%">
+         <h1 class="text-xl font-extrabold text-white">TENGGARA SPACE</h1>
+         <div class="flex items-center">
+         <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+          <span class="hamburger-line origin-top-left transition duration-500 ease-in-out"></span>
+          <span class="hamburger-line transition duration-500 ease-in-out"></span>
+          <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
+        </button>
+        <nav id="nav-menu" class="absolute py-6 right-4 max-w-[250px] w-full bg-black top-full rounded-lg shadow-lg hidden lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none lg:py-1">
+          <ul class="block lg:flex">
+            <li class="group">
+              <a href="" class="text-base py-2 mx-8 flex text-white group-hover:text-fuchsia-400">HOME CAFE</a>
+            </li>
+            <li class="group">
+              <a href="" class="text-base py-2 mx-8 flex text-purple-400 group-hover:text-slate-50">PICTURE</a>
+            </li>
+            <li class="group">
+              <a href="" class="text-base py-2 mx-8 flex text-purple-400 group-hover:text-slate-50">HOME BILIARDS</a>
+            </li>
+            <li class="group">
+              <a href="" class="text-base py-2 mx-8 flex  text-purple-400 group-hover:text-slate-50">PICTURE</a>
+            </li>
+            <li class="group">
+              <a href="" class="text-base py-2 mx-8 flex text-purple-400 group-hover:text-slate-50">SOCIAL-MEDIA</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+       </div>
+      </div>
+    </header>
+    <!--header start-->
+
+    <!--section start home-->
+    <section id="home">
+        <div class="w-full relative h-screen">
+          <div class="relative h-screen">
+            <video class="absolute inset-0 w-full h-full object-cover" autoplay loop muted playsinline>
+              <source src="src/img/caffe.mp4" type="video/mp4">
+            </video>
+          
+            <div class="relative flex items-center justify-center h-full bg-opacity-75 text-white">
+              </div>
+          </div>
+          <div class="absolute top-0 left-0 w-full h-full">
+            <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col">
+              <h1 class="text-white text-4xl font-black mb-3 md:text-5xl"></h1>
+              <p class="text-white text-lg mb-3 md:text-2xl"></p>
+              
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <!--section end home-->
+    
+    <!--section picture start-->
+    <section style="background-color: black;" id="picture">
+        <div class="max-w-[1240px] mx-auto py-16 px-4 text-center">
+          <h1 class="font-bold text-lg mb-1 text-white">ALL PROJECT HERE 100% ORIGINAL</h1>
+          <P class="font-semibold text-purple-700 mb-3">THIS CAFE ( KOPI DARI HATI )</P>
+          <div class="grid grid-rows-none gap-2 md:grid-cols-5 md:gap-4">
+            <img src="src/img/cafe.jpeg" alt="" class="w-full h-full object-cover col-span-2 md:col-span-3 row-span-2">
+            <img src="src/img/kopi.jpeg" alt="" class="w-full h-full object-cover">
+            <img src="src/img/sirup.jpeg" alt="" class="w-full h-full object-cover">
+            <img src="src/img/gelas.jpeg" alt="" class="w-full h-full object-cover">
+            <img src="src/img/msin 2.jpeg" alt="" class="w-full h-full object-cover">
+          </div>
+        </div>
+    </section>
+    <!--section picture end-->
+    
+    <!--section start-->
+    <section style="background:black;" id="AND">
+      <div class="max-w-[1240px] h-full mx-auto py-16 px-4 text-center">
+        <h1 class="font-bold text-9xl text-white mb-10">AND</h1>
+      </div>
+    </section>
+    <!--section and-->
+
+    <!--section bl start-->
+    <div class="w-full relative h-screen">
+      <div class="relative h-screen">
+        <video class="absolute inset-0 w-full h-full object-cover" autoplay loop muted playsinline>
+          <source src="src/img/bl.mp4" type="video/mp4">
+        </video>
+      
+        <div class="relative flex items-center justify-center h-full bg-opacity-75 text-white">
+          </div>
+      </div>
+    <!--section bl end-->
+
+
+    <!--section content start-->
+    <section style="background:black;" class="mb-3">
+      <div class="max-w-[1240px] mx-auto py-16 px-4 text-center">
+        <h1 class="font-bold text-lg mb-9 bg-white">BILIARDS ( RADO )</h1>
+        <div class="grid grid-rows-none gap-4 md:grid-cols-5 md:gap-4 mb-5">
+          <img src="src/img/bl1.jpeg" alt="" class="w-full h-full object-cover">
+          <img src="src/img/bl2.png" alt="" class="w-full h-full object-cover">
+          <img src="src/img/bl3.jpg" alt="" class="w-full h-full object-cover">
+          <img src="src/img/bl4.jpeg" alt="" class="w-full h-full object-cover">
+          <img src="src/img/bl5.jpeg" alt="" class="w-full h-full object-cover">
+      </div>
+    </div>
+    </section>
+    <!--section content end-->
+
+    <!--section social media start-->
+    <section id="about">
+      <div class="max-w-[1240px] mx-auto py-16 px-4 ">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 py-3 lg:w-1/2">
+            <h1 class="font-bold text-xl text-red-700 mb-1">QUOTES</h1>
+            <h3 class="font-semibold text-2xl uppercase mb-2">kalian bingung mau ngapain sekarang ???</h3>
+            <p>ikut lorem ama ipsum aja ke tenggara space</p>
+          </div>
+          <div class="w-full px-4 py-3 lg:w-1/2">
+            <h1 class="font-semibold text-2xl uppercase mb-2">social media</h1>
+            <p class="mb-3">account lorem ama ipsum</p>
+            <div class="flex items-center">
+              <a href="https://www.instagram.com/TenggaraSpace/" class="mr-5 border rounded-full w-9 h-9 border-black flex justify-center items-center hover:bg-gradient-to-tr from-red-600 to-blue-700 hover:text-white transition duration-500 ease-in-out">
+                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/><title>instagram</title></svg>
+              </a>
+              <a href="https://www.google.com/maps/place/Tenggara+Space/@-6.3796863,106.8506167,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69ed123f1492d7:0xaada7d78bee92f05!8m2!3d-6.3796863!4d106.8531916!16s%2Fg%2F11tmv3sr39?entry=ttu" class="mr-5 border rounded-full w-9 h-9 border-black flex justify-center items-center hover:bg-blue-400 hover:text-white transition duration-500 ease-in-out">
+                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Google Maps</title><path d="M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z"/><title>maps</title></svg>
+              </a>
+              <a href="085695440224"class="mr-5 border rounded-full w-9 h-9 border-black flex justify-center items-center hover:bg-green-500  hover:text-white transition duration-500 ease-in-out">
+                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/><title>WhatsApp</title></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--section social media end-->
+
+    <!-- Testimonials section start -->
+    <!-- Background -->
+    <hr>
+    <section id="testimonials" class="p-6 text-center shadow-lg md:p-12 md:text-left" style="background: rgb(0, 0, 0);">
+        <h1 class="font-bold text-2xl mb-3 text-center text-white"><span class="text-purple-600">THE OWNER</h1>
+        <div class="flex justify-center">
+            <div class="max-w-3xl">
+                <div class="m-4 block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-800 dark:shadow-black/20">
+                    <!--Testimoni-->
+                    <div class="md:flex md:flex-row">
+                        <div class="mx-auto mb-6 flex w-36 items-center justify-center md:mx-0 md:w-96 lg:mb-0">
+                            <img src="src/img/IMG_20231125_081821.jpg" class="w-21 rounded-full shadow-md dark:shadow-black/30"
+                                alt="image" />
+                        </div>
+                        <div class="md:ml-6">
+                            <p class="mb-6 font-light text-base text-neutral-500 dark:text-neutral-300">
+                                Asal anata tau.... watashi jadi wibu akut kayak gini desu, itu karna anata sering minum kopi di tenggara space... dan itu sangat sugoiiiii
+                                dan juga di tenggara space itu bukan cuma kafe doang tapi ada biliardnya juga sugoi-sugoiiiiii...
+                            </p>
+                            <p class="mb-2 text-xl font-semibold text-neutral-800 dark:text-neutral-200">
+                                MR. NAYUNA DESU
+                            </p>
+                            <p class="mb-0 font-semibold text-neutral-500 dark:text-neutral-400">
+                                Tukang ngewibu Handal
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials section end -->
+
+    <!--section foter start-->
+<footer class="bg-white">
+  <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-md">
+      <strong class="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
+        Want us to email you with the latest blockbuster news?
+      </strong>
+
+      <form class="mt-6">
+        <div class="relative max-w-lg">
+          <label class="sr-only" for="email"> Email </label>
+
+          <input
+            class="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium"
+            id="email"
+            type="email"
+            placeholder="benedkudat@gmail.com"
+          />
+
+          <button
+            class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
+          >
+            Subscribe
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+      <div class="mx-auto max-w-sm lg:max-w-none">
+        <p class="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium natus quod eveniet
+          aut perferendis distinctio iusto repudiandae, provident velit earum?
+        </p>
+
+        <div class="mt-6 flex justify-center gap-4 lg:justify-start">
+
+          <a
+            class="text-gray-700 transition hover:text-gray-700/75"
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="sr-only"> Instagram </span>
+
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+
+          <a
+            class="text-gray-700 transition hover:text-gray-700/75"
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="sr-only"> GitHub </span>
+
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
+        <div>
+          <strong class="font-medium text-gray-900"> Services </strong>
+
+          <ul class="mt-6 space-y-1">
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Marketing </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                Graphic Design
+              </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                App Development
+              </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                Web Development
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <strong class="font-medium text-gray-900"> About </strong>
+
+          <ul class="mt-6 space-y-1">
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> About </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Careers </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> History </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Our Team </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <strong class="font-medium text-gray-900"> Support </strong>
+
+          <ul class="mt-6 space-y-1">
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> FAQs </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Contact </a>
+            </li>
+
+            <li>
+              <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Live Chat </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16 border-t border-gray-100 pt-8">
+      <p class="text-center text-xs/relaxed text-gray-500">
+        © Company 2022. All rights reserved.
+
+        <br />
+
+        Created with
+        <a href="" class="text-gray-700 underline transition hover:text-gray-700/75">Laravel</a>
+        and
+        <a href="" class="text-gray-700 underline transition hover:text-gray-700/75"
+          >Laravel Livewire</a
+        >.
+      </p>
+    </div>
+  </div>
+</footer>
+    <!--section foter start-->
+
+
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
