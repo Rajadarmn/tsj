@@ -3,11 +3,15 @@
 window.onscroll = function(){
     const header = document.querySelector('header');
     const navbarfixed = header.offsetTop;
+    const toTop = document.querySelector('#to-top');
 
 
     if(window.pageYOffset > navbarfixed){
         header.classList.add('navbar-fixed');
-    }else{header.classList.remove('navbar-fixed');
+        toTop.classList.remove('hidden');
+    }else{
+        header.classList.remove('navbar-fixed');
+        toTop.classList.add('hidden');
     }
 }
 
