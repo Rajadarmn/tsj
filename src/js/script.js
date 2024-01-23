@@ -25,4 +25,26 @@ hamburger.addEventListener('click',function(){
   
 navMenu.classList.toggle('hidden');
 
-})
+});
+
+
+//clik di close
+window.addEventListener('click', function(a){
+if (a.target!=hamburger && a.target !=navMenu){
+    hamburger.classList.remove('active');
+    navMenu.classList.add('hidden');
+}
+});
+
+
+// dark mode 
+const darkToggle=document.querySelector('#dark-toggle');
+const html = document.querySelector('html');
+
+darkToggle.addEventListener('click',function(){
+if(darkToggle.checked){
+    html.classList.add('dark');
+}else{
+    html.classList.remove('dark');
+}
+});
